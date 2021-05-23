@@ -25,4 +25,4 @@ jobs:
     - name: Install pytest 
       run: pip install pytest
     - name: run pytest 
-      run: pytest test_order_system.py
+      run: pytest 3_implementation/test/test.py

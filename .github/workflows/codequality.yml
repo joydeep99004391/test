@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install pylint
+      run: pip install pylint
     - name: code_analysis
       run: pylint 3_Implementation/
