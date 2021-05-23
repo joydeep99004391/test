@@ -16,4 +16,4 @@ jobs:
     - name: Install pylint
       run: pip install pylint
     - name: code_analysis
-      run: pylint 3_Implementation/
+      run: pylint ./3_Implementation/
