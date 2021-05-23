@@ -1,0 +1,2 @@
+HERE IS THE LEADERBOARD 
+{'name': 'name of player', 'points': 'points of player', 'duration': 'duration of game played', 'last_game_played': ''}
