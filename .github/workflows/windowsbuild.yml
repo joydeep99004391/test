@@ -1,0 +1,17 @@
+name: C/C++ CI WINDOWS- Build Status
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: windows_build
+      run: python 3_Implementation/test/test.py
